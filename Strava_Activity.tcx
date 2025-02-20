@@ -9,8 +9,13 @@
       <Lap StartTime="2025-02-20T07:30:00Z">
         <TotalTimeSeconds>3600</TotalTimeSeconds>
         <DistanceMeters>10000</DistanceMeters>
-        <MaximumSpeed>5.0</MaximumSpeed>
         <Calories>600</Calories>
+        <AverageHeartRateBpm>
+          <Value>150</Value>
+        </AverageHeartRateBpm>
+        <MaximumHeartRateBpm>
+          <Value>170</Value>
+        </MaximumHeartRateBpm>
         <Intensity>Active</Intensity>
         <TriggerMethod>Manual</TriggerMethod>
         <Track>
@@ -49,6 +54,15 @@
             </Position>
             <AltitudeMeters>20</AltitudeMeters>
             <DistanceMeters>4500</DistanceMeters>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2025-02-20T08:10:00Z</Time>
+            <Position>
+              <LatitudeDegrees>37.7753</LatitudeDegrees>
+              <LongitudeDegrees>-122.4198</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>22</AltitudeMeters>
+            <DistanceMeters>6000</DistanceMeters>
           </Trackpoint>
         </Track>
       </Lap>
